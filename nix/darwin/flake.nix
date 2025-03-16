@@ -25,6 +25,8 @@
           pkgs.nixd # nix lsp
           pkgs.tree # directory tree viewer
           pkgs.gh # github cli
+          pkgs.unison # bi-directional file sync (for CSCI353)
+          pkgs.unison-fsmonitor # unison file monitor (for CSCI353)
         ];
       
       homebrew = {
