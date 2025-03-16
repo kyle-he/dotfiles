@@ -24,6 +24,7 @@
           pkgs.nixfmt-rfc-style # nix formatter
           pkgs.nixd # nix lsp
           pkgs.tree # directory tree viewer
+          pkgs.gh # github cli
         ];
       
       homebrew = {
