@@ -1,0 +1,68 @@
+{
+	"name": "vscode-pdf",
+	"displayName": "PDF Viewer",
+	"description": "Portable document format (PDF) viewer for Visual Studio Code.",
+	"version": "0.1.5",
+	"publisher": "mathematic",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mathematic-inc/vscode-pdf.git"
+	},
+	"engines": {
+		"vscode": "^1.96.0"
+	},
+	"icon": "icon.png",
+	"license": "Apache-2.0",
+	"keywords": [
+		"pdf",
+		"viewer"
+	],
+	"categories": [
+		"Visualization",
+		"Other"
+	],
+	"main": "./dist/extension.js",
+	"contributes": {
+		"customEditors": [
+			{
+				"viewType": "pdf.view",
+				"displayName": "PDF View",
+				"selector": [
+					{
+						"filenamePattern": "*.pdf"
+					}
+				]
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run package",
+		"build": "webpack",
+		"watch": "webpack --watch",
+		"package": "webpack --mode production --devtool hidden-source-map",
+		"test-compile": "npm run compile",
+		"test-watch": "npm run watch"
+	},
+	"devDependencies": {
+		"@types/node": "22.x",
+		"@types/vscode": "1.96.0",
+		"ts-loader": "9.5.2",
+		"typescript": "5.7.3",
+		"webpack": "5.97.1",
+		"webpack-cli": "6.0.1"
+	},
+	"__metadata": {
+		"id": "89a3757d-edad-4403-95f0-24b72cce805e",
+		"publisherId": "be393c41-1297-44dc-80a7-b6daffa59fdf",
+		"publisherDisplayName": "mathematic",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1742243312087,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery",
+		"size": 9357742
+	}
+}

@@ -1,0 +1,6 @@
+root = /Users/kylehe/Code/CSCI353/cs353-dir
+root = ssh://student@ec2-54-212-27-210.us-west-2.compute.amazonaws.com///home/student/cs353-dir
+
+auto = true
+batch = true
+repeat = watch

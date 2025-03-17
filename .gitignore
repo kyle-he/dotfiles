@@ -1,1 +1,36 @@
+# macOS system files
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# ignore all files in .unison directory except default.prf
+.unison/*
+!.unison/default.prf
+
+# temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# log files
+*.log
+logs/
+
+# keys
+*.pem
+*.key
+*.env
+*.env.*
+*.secret
+*.gpg
+*.asc
+id_rsa*
+id_ed25519*
+known_hosts
+authorized_keys
+
+# other
+.cache/
+.local/
+.config/

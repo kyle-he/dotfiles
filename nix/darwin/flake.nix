@@ -36,12 +36,15 @@
             pkgs.unison-fsmonitor # unison file monitor (for CSCI353)
             pkgs.mkalias # create finder aliases
             pkgs.nodePackages.npm # node package manager
+            pkgs.rustup # Rust version manager
+            pkgs.rustc # Rust compiler
+            pkgs.cargo # Rust package manager
           ];
 
           homebrew = {
             enable = true;
             brews = [
-              "cocoapods" # dependency manager for Cocoa projects
+              # "cocoapods" # dependency manager for Cocoa projects
             ];
             casks = [
               "iina" # video player
