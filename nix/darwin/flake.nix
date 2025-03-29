@@ -39,6 +39,7 @@
             pkgs.rustup # Rust version manager
             pkgs.rustc # Rust compiler
             pkgs.cargo # Rust package manager
+            pkgs.cmake # CMake build system
           ];
 
           homebrew = {

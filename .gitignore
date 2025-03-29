@@ -7,6 +7,9 @@
 .unison/*
 !.unison/default.prf
 
+# ignore cursor extensions
+extensions/
+
 # temporary files
 *.tmp
 *.temp
